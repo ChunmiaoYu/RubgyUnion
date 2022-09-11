@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace RugbyClub1.Models
+namespace RugbyUnion1.Models
 {
     [Table("Team")]
     public class Team

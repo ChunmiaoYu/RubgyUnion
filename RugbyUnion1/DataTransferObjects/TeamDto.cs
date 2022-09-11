@@ -9,6 +9,7 @@ namespace RugbyUnion1.DataTransferObjects
         public string Name { get; set; }
         public string Ground { get; set; }
         public string Coach { get; set; }
+        [StringLength(4, ErrorMessage = "FoundedYear can't be longer than 4 characters")]
         public string FoundedYear { get; set; }
         public string Region { get; set; }
     }

@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using RugbyClub1.Models;
+using RugbyUnion1.Models;
 using RugbyUnion1.Data;
 using RugbyUnion1.DataTransferObjects;
 
@@ -15,8 +15,8 @@ namespace RugbyUnion1.Controllers
     {
         //private ILogger _logger;
         private IPlayerRepository _playerRepository;
-        private IMapper _mapper;
-        private readonly ILogger<PlayerController> _logger;
+        private IMapper? _mapper;
+        private readonly ILogger<PlayerController>? _logger;
         public PlayerController(IPlayerRepository playerRepository,IMapper mapper, ILogger<PlayerController> logger)
         {
             _playerRepository = playerRepository;
@@ -92,7 +92,7 @@ namespace RugbyUnion1.Controllers
             _logger.LogInformation("Entering GetByCoach in PlayerController");
             try
             {
-                var players = await _playerRepository.FindByCondition(x => true).Where(player=>player.Team.Coach== coach).ToListAsync();
+                var players = await _playerRepository.FindByCondition(x=>x.Team.Coach== coach).ToListAsync();
                 if (!players.Any())
                 {
                     _logger.LogError($"Players with coach: {coach}, hasn't been found in db.");

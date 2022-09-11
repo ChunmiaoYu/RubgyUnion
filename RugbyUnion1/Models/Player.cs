@@ -4,7 +4,7 @@ using System.Linq;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace RugbyClub1.Models
+namespace RugbyUnion1.Models
 {
     [Table("Player")]
     public class Player

@@ -1,0 +1,31 @@
+.NET CORE DEVELOPER ENTRY TEST
+
+Complete the Object oriented service described below. Please send the completed project.
+You will be evaluated on meeting the requirements, code/data structure, and efficiency of
+your code.
+Outline
+• Please create a backend service to satisfy this scenario in .netcore. Please include a
+document of any instructions needed to run the project.
+Scenario
+• Design a player club - signing application
+• Create an application to act as a player management system. You should create
+classes to model a Rugby Union, players and teams. The system should store the
+following information about each player – ID number (unique), name, birth date,
+height, weight, place of Birth and the team they are signed in. The system should
+also store the following information about each team – name (unique), ground,
+coach, founded year, region and a list of players enrolled in the team.
+• The application should be able to
+- add a new player to the system
+- add a new team to the system,
+- sign a player to a team,
+- display a list of all the players,
+- a list of all the teams,
+- allow the user to select a player and display the team that player is signed in
+- allow the user to select a team and display all of the players signed with it.
+• Bonuses
+- Search by age and appropriate display information of all the players who are
+that age.
+- Search by coach display information of all the players whose coach is that
+coach.
+- Unit tests
+- Correct http response codes

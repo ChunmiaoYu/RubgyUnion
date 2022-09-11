@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RugbyUnion1", "RugbyUnion1\RugbyUnion1.csproj", "{AC3ECFC0-9C5F-4116-ABD4-6477BDCC7A42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RugbyUnion.Test", "RugbyUnion.Test\RugbyUnion.Test.csproj", "{01C19C02-81C9-4727-B526-902705998AB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RugbyUnion.Test", "RugbyUnion.Test\RugbyUnion.Test.csproj", "{01C19C02-81C9-4727-B526-902705998AB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RugbyUnion1.XUnitTest", "XUnit_RugbyUnion1\RugbyUnion1.XUnitTest.csproj", "{9D0170CA-90A6-4F1A-BC2C-AEC60B28F226}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{01C19C02-81C9-4727-B526-902705998AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01C19C02-81C9-4727-B526-902705998AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01C19C02-81C9-4727-B526-902705998AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D0170CA-90A6-4F1A-BC2C-AEC60B28F226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D0170CA-90A6-4F1A-BC2C-AEC60B28F226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D0170CA-90A6-4F1A-BC2C-AEC60B28F226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D0170CA-90A6-4F1A-BC2C-AEC60B28F226}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

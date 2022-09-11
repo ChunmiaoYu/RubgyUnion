@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using RugbyClub1.Models;
+using RugbyUnion1.Models;
 using RugbyUnion1.DataTransferObjects;
 
 namespace RugbyUnion1
-{
+{//it's a service added at program
     public class MappingProfile:Profile
     {
         public MappingProfile()

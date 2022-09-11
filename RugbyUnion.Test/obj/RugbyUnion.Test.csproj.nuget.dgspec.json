@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\yumia\\Desktop\\合同\\CustomLib": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,6 +49,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.7.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.11.0, )"
@@ -60,9 +69,23 @@
               "target": "Package",
               "version": "[4.0.0, )"
             },
+            "coveralls.io": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
             "coverlet.collector": {
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "dotnet-framework-sonarscanner": {
+              "target": "Package",
+              "version": "[5.5.3, )"
             }
           },
           "imports": [
@@ -106,6 +129,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\yumia\\Desktop\\合同\\CustomLib": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

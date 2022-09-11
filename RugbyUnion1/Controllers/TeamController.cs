@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using RugbyClub1.Models;
+using RugbyUnion1.Models;
 using RugbyUnion1.Data;
 using RugbyUnion1.DataTransferObjects;
 
